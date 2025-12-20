@@ -26,6 +26,9 @@ The repository contains the following Python modules and notebooks:
 - **`VS_tool.ipynb`**  
   The main notebook implementing the **generative virtual screening workflow**, integrating all functionalities provided in this repository.
 
+- **`environment.yml`** 
+  YAML file with exported environment. 
+
 - **`output_visualization.py`**  
   A lightweight and elegant script for visualizing the generated results.
 
