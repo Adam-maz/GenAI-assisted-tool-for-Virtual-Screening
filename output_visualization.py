@@ -7,7 +7,7 @@ import IPython
 def visualize_output(df_mols: pd.DataFrame,
                      maxMols: int = 50,
                      molsPerRow: int = 4,
-                     subImgSize: tuple = (450, 450) -> IPython.core.display.Image):
+                     subImgSize: tuple = (450, 450)) -> IPython.core.display.Image:
 
     legends = [
         f"Predicted pKi: {pKi:.2f}\n"
